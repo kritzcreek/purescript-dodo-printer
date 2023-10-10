@@ -16,7 +16,7 @@ jobs:
         with:
           purescript: "0.15.12"
           purs-tidy: "0.10.0"
-          spago: "0.21.0"
+          spago: "0.93.17"
 
       - name: Build source
         run: spago build
